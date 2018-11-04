@@ -5,6 +5,6 @@
 | 2017S |                       Queue(LL)([]())                        | String([String_2017.h](Code\String_2017.h)) |                   BST                    |
 | 2016F |                       Stack(LL)([]())                        |             Queue(CirclueArray)             |                   BST                    |
 | 2016S |                          Queue(LL)                           |          String([String_2016.h]())          |                   BST                    |
-| 2015F |                       Stack(LL)([]())                        |                     BST                     | Lexicon(Recursive function)([Lexicon]()) |
-| 2015S |                                                              |                                             |                                          |
+| 2015F |                                                              |                                             |   Lexicon([Lexicon.h](Code/Lexicon.h))   |
+| 2015S |                                                              |                                             |                 Lexicon                  |
 
