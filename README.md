@@ -1,7 +1,7 @@
 # DataStructure
 | Year  |  Q1  |  Q2  |                Q3                |
 | :---: | :--: | :--: | :------------------------------: |
-| 2017F |      |      | [Binary Search Tree](CODE/BST.h) |
+| 2017F |      |      | [Binary Search Tree](Code/BST.h) |
 | 2017S |      |      |                                  |
 | 2016F |      |      |                                  |
 | 2016S |      |      |                                  |
