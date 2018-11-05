@@ -53,7 +53,7 @@ public:
         rhs.tos=temp;
     }
 
-    Stack<T> operator=(Stack<T> rhs){
+    Stack<T>& operator=(Stack<T> rhs){
         Swap(rhs);
         return *this;
     }
