@@ -31,7 +31,6 @@ public:
             front=front->next;
             temp=front;
         }
-        back= nullptr;
     }
     Queue(const Queue<T>& actual){
         front= nullptr;
@@ -72,6 +71,7 @@ public:
             back=back->next;
         }
     }
+    
     bool isEmpty(){ return(front== nullptr);}
     T dequeue(){
         assert(!isEmpty());
@@ -79,14 +79,14 @@ public:
         node<T>* temp=front;
 
         front=front->next;
-        if(front== nullptr)
+        if(front== nullptr)// This is important
             back= nullptr;
 
         delete temp;
         return result;
     }
 
-
+///////for test////////
     void print(){
         node<T> *temp=front;
         while(temp!= nullptr){
