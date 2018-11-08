@@ -13,4 +13,4 @@ more:
 
 infix(fully parenthesized) to postfix, together with stack(array):
 
-[infixToPost.h](InfixToPost.h)
+[infixToPost.h](Code/InfixToPost.h)
