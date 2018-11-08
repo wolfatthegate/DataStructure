@@ -151,7 +151,7 @@ public:
         return Itr<T>(ending);
     }
 
-   /////for test
+   /////for test//////////
     void PrintList(){
         dnode<T>* temp=beginning;
         while(temp!= nullptr){
@@ -160,7 +160,30 @@ public:
         }
         std::cout<<std::endl;
     }
+//////SOME OTHER FUNCTION////
 
+
+    List<T>& operator=(List<T> rhs){
+        swap(rhs);
+        return *this;
+    }
+
+    void swap(List<T>& rhs){
+        dnode<T>* temp=beginning;
+        beginning=rhs.beginning;
+        rhs.beginning=temp;
+
+        temp=ending;
+        ending=rhs.ending;
+        rhs.ending=temp;
+    }
+
+    Itr<T> find(const T& key){
+        Itr<T> pos(beginning);
+        while(pos->data!=key)
+            ++pos;
+        return pos;
+    }
 };
 
 
