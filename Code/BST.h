@@ -37,7 +37,7 @@ public:
         if(root!= nullptr){
             destory(root->left);
             destory(root->right);
-            root= nullptr;
+            delete root;
         }
     }
 
