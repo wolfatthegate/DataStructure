@@ -9,8 +9,8 @@
 | 2015F |                          Stack(LL)                           |                     BST                     |   Lexicon([Lexicon.h](Code/Lexicon.h))   |
 | 2015S |                          Stack(LL)                           |                     BST                     |                 Lexicon                  |
 
-more:
+More:
 
-infix(fully parenthesized) to postfix, together with stack(array):
+- infix(fully parenthesized) to postfix, together with stack(array):
 
 [infixToPost.h](Code/InfixToPost.h)
