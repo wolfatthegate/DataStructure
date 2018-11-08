@@ -40,6 +40,7 @@ public:
         str[i]='\0';//this is important
     }
     ~String(){
+        
         delete[] str;
         length=0;
     }
