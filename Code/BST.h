@@ -58,7 +58,7 @@ public:
 
 
 
-    void prePrint(){visit(m_root);};
+    void InPrint(){visit(m_root);};//Inorder print gives sorted 
     void visit(const node* root){
         if(root== nullptr)
             return;
