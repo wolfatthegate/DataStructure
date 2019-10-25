@@ -21,9 +21,11 @@ More:
 The following lines should be excluded from the code.
 
 '''
-#ifndef INC_2017S_STRING_H
-#define INC_2017S_STRING_H
+
+#ifndef 
+#define 
 
 #endif
+
 '''
 
