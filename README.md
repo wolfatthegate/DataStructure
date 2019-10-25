@@ -16,4 +16,14 @@ More:
 - infix(fully parenthesized) to postfix, together with stack(array):
 
   [infixToPost.h](Code/InfixToPost.h)
+  
+- 
+The following lines should be excluded from the code.
+
+'''
+#ifndef INC_2017S_STRING_H
+#define INC_2017S_STRING_H
+
+#endif
+'''
 
