@@ -21,11 +21,9 @@ More:
 The following lines should be excluded from the code.
 
 ``` C++
-
 #ifndef 
 #define 
-
+...
 #endif
-
 ```
 
