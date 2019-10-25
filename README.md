@@ -18,7 +18,7 @@ More:
   [infixToPost.h](Code/InfixToPost.h)
   
 - 
-The following lines should be excluded from the code.
+The following three lines should be excluded from the code.
 
 ``` C++
 #ifndef 
