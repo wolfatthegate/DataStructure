@@ -1,7 +1,7 @@
 # DataStructure 
 |         Year         |                              Q1                              |                     Q2                      |                    Q3                    |
 | :------------------: | :----------------------------------------------------------: | :-----------------------------------------: | :--------------------------------------: |
-| **2019S Prediction** |                   **Queue(CircularArray)**                   |              **String(2017)**               |                 **BST**                  |
+|        2019S         |                          Queue(LL)                           |                String(2017)                 |                Ternary Tree              |
 |        2018F         |                          Stack(LL)                           |                     DLL                     |                   BST                    |
 |        2018S         |                          Stack(LL)                           |                   String                    |                   BST                    |
 |        2017F         | Queue (CircularArray) ([Queue_CircularArray.h](Code/Queue_CircularArray.hpp)) |          DLL([DLL.h](Code/DLL.h))           | Binary Search Tree ([BST.h](Code/BST.h)) |
